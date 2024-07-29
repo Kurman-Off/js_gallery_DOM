@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var t=document.getElementById("largeImg");document.getElementById("thumbs").addEventListener("click",function(e){e.preventDefault();var r=e.target;if("IMG"===r.tagName&&"A"===r.parentNode.tagName){var a=r.parentNode.getAttribute("href");t.setAttribute("src",a)}if("A"===r.tagName){var n=r.getAttribute("href");t.setAttribute("src",n)}})});
+//# sourceMappingURL=index.b94eca95.js.map
